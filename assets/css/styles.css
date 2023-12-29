@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+:root{
+    --header-height: 3rem;
+    --body-font: 'Poppins', sans-serif;
+    --normal-font-size: 0.938rem;
+  }
+
+
+
+  @media screen and (max-width: 750px) {
+    .svg-column {
+      float: left;
+      width: 100%;
+      padding: 10px;
+    }
+    .triple-column {
+      width: 100%;
+    }
+  }
+
+  
+body {
+    margin: var(--header-height) 0 0 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+
+  .highlight-green {
+    background: linear-gradient(180deg,rgba(255,255,255, 0) 65%, #bee2c5 65%);
+  }
+
+.typed-text{
+    color: var(--second-color);
+  }
+  .cursor{
+    font-size: 2.5rem;
+    display: inline-block;
+    width: .2rem;
+    background-color: var(--second-color);
+    margin-left: .1rem;
+    animation: blink 1s infinite;
+  }
+  .cursor.typing{
+    animation: none;
+  }
+  @keyframes blink{
+    0%{background-color: var(--second-color);}
+    49%{background-color: var(--second-color);}
+    50%{background-color: transparent;}
+    99%{background-color: transparent;}
+    100%{background-color: var(--second-color);}
+  }
+
+  .introduction {
+    margin-left: 5%;
+    margin-right: 50%;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+  }
+
+  .introduction-name {
+    font-size: 275%;
+  }
+
+  .beige-background {
+    background: #f3ebeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-icon {
+    margin-right: 20px;
+  }
+
+  .topnav {
+    background: #f3ebeb;
+    overflow: hidden;
+    display: flex;
+    justify-content: right;
+  }
+
+  .beige-backgroundd {
+    background: #f3ebeb;
+  }
+
+  .white-background {
+    margin-top: 100px;
+    background: #ffffff;
+  }
+
+  .spacer {
+    background: #ffffff;
+    margin-bottom: 0px;
+  }
+
+  .home__img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 295px;
+  }
+
+  .container {
+    max-width: 1300px;
+    margin: 0 auto;
+    overflow: hidden; 
+  }
+
+  .image {
+    margin-top: 30px;
+    float: right;
+    width: 30%;
+    box-sizing: border-box;
+    margin-right: 2%;
+  }
+
+  .image2 {
+    float: right;
+    width: 47%;
+    box-sizing: border-box;
+  }
+
+  .text2 {
+    margin-top: 1%;
+    float: left;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 110%;
+    color:  #54403a;
+  }
+
+  .round-borders {
+    border-radius: 50px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .text {
+    margin-top: 1%;
+    float: left;
+    width: 60%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 110%;
+    color:  #54403a;
+  }
+
+  .titles {
+    font-size: 200%;
+    text-align: center;
+  }
+
+  .about-me {
+    text-align: center;
+    font-size: 115%;
+  }
+
+  .margin {
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 110%;
+    text-align: center;
+  }
+
+  /* capybara image */
+  .border1 {
+    position: absolute;
+    top: 66%;
+    right: 2%;
+    z-index: 1;
+    float: right;
+    width: 15%;
+    box-sizing: border-box;
+  }
+
+  .button {
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .rounded-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 20px;
+    background-color: #54403a;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+  }
+
+
+
+  
+
