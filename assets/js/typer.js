@@ -4,7 +4,7 @@ const cursorSpan = document.querySelector(".cursor");
 const textArray = ["Sophomore @ Cornell University", "Computer Science & Statistics"];
 const typingDelay = 120;
 const erasingDelay = 50;
-const newTextDelay = 500; // Delay between current and next text
+const newTextDelay = 499; // Delay between current and next texts
 let textArrayIndex = 0;
 let charIndex = 0;
 
