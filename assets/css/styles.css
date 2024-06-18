@@ -26,9 +26,9 @@ body {
     font-size: var(--normal-font-size);
 }
 
-  .highlight-green {
+.highlight-green {
     background: linear-gradient(180deg,rgba(255,255,255, 0) 65%, #bee2c5 65%);
-  }
+}
 
 .typed-text{
     color: var(--second-color);
@@ -44,6 +44,7 @@ body {
   .cursor.typing{
     animation: none;
   }
+  
   @keyframes blink{
     0%{background-color: var(--second-color);}
     49%{background-color: var(--second-color);}
@@ -52,23 +53,13 @@ body {
     100%{background-color: var(--second-color);}
   }
 
-  .introduction {
-    margin-left: 5%;
-    margin-right: 50%;
-    margin-bottom: 5%;
-    box-sizing: border-box;
-  }
-
   .introduction-name {
     font-size: 275%;
   }
 
   .beige-background {
+    margin-top: 100px;
     background: #f3ebeb;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
   .nav-icon {
@@ -80,10 +71,6 @@ body {
     overflow: hidden;
     display: flex;
     justify-content: right;
-  }
-
-  .beige-backgroundd {
-    background: #f3ebeb;
   }
 
   .white-background {
@@ -172,6 +159,7 @@ body {
   }
 
   /* capybara image */
+
   .border1 {
     position: absolute;
     top: 66%;
@@ -180,14 +168,6 @@ body {
     float: right;
     width: 15%;
     box-sizing: border-box;
-  }
-
-  .button {
-    display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
   }
 
   .button-container {
@@ -206,6 +186,80 @@ body {
     text-align: center;
     font-size: 16px;
   }
+
+  .green-text {
+    color: #a1c0a7;
+  font-weight: bold;
+  }
+
+  .grey-text {
+    color: #999999;
+    float: right;
+    font-size: 16px;
+    font-style: italic;
+  }
+
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .socials-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .socials-text {
+    flex: 1;
+    max-width: 70%;
+    padding-right: 140px;
+    padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 20px;
+    font-weight: 550;
+    padding-bottom: 40px;
+  }
+
+  .socials-icons {
+    padding-top: 25px;
+    font-size: 50px;
+    float: right;
+  }
+
+.projects-image {
+    flex: 0 0 65%;
+    max-width: 65%;
+    padding-right: 20px;
+}
+
+.projects-image img {
+    width: 100%;
+    height: auto;
+}
+
+.projects-text {
+    flex: 1;
+    max-width: 35%;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projects-text h2 {
+    margin-top: 0;
+}
+
+.projects-text p {
+    margin-top: -10px;
+}
+
+
+
+
+
 
 
 
