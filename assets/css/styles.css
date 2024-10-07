@@ -105,7 +105,7 @@ body {
     float: right;
     width: 30%;
     box-sizing: border-box;
-    margin-right: 2%;
+    /* margin-right: 2%; */
   }
 
   .image2 {
@@ -136,7 +136,7 @@ body {
   .text {
     margin-top: 1%;
     float: left;
-    width: 60%;
+    width: 65%;
     padding: 20px;
     box-sizing: border-box;
     font-size: 110%;
